@@ -4,9 +4,9 @@
  * soNgayLam
  * 
  * Khối 2:
- * B1: tạo biến và gán giá trị
- * B2: tính tiền lương
- * 
+ * B1: lấy giá trị từ form
+ * B2: xác định điều kiện vào lập công thức
+ *     tongLuong = luongMoiNgay * soNgayLam;
  * Khối 3: ouput
  * tongLuong
  * 

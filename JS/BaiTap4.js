@@ -4,9 +4,10 @@
  * chieuRong
  * 
  * Khối 2: Các bước xử lý
- * B1: Tạo và khai báo biến
- * B2: dienTich = chieuDai * chieuRong;
- * B3: chuVi = (chieuDai + chieuRong) * 2;
+ * B1: lấy giá trị từ form
+ * B2: xác định điều kiện vào lập công thức
+ *  dienTich = chieuDai * chieuRong;
+ *  chuVi = (chieuDai + chieuRong) * 2;
  *  
  * Khối 3: output
  * dienTich

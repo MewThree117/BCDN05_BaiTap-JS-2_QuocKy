@@ -3,9 +3,12 @@
  * 5 số thực (float)
  * 
  * Khối 2:
+ * B1: lấy giá trị từ form
+ * B2: xác định điều kiện vào lập công thức
  * trungBinh = (num1 + num2 + num3 + num4 + num5)/5
  * 
  * Khối 3: giá trị trung bình của 5 số thực
+ * trungBinh
  */
 
 function tinhTB() {

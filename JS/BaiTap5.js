@@ -3,11 +3,11 @@
  * number
  * 
  * Khối 2: các bước xử lý
- * B1: tạo và khai báo biến
- * B2: 
- * ten = Math.floor(number/10);
- * unit = number%10;
- * tong = ten + unit;
+ * B1: lấy giá trị từ form
+ * B2: xác định điều kiện vào lập công thức
+ *     ten = Math.floor(number/10);
+ *     unit = number%10;
+ *     tong = ten + unit;
  * 
  * Khối 3: output
  * tong

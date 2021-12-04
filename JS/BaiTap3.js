@@ -4,8 +4,9 @@
  * soTienUSD
  * 
  * Khối 2: Các bước xử lý
- * B1: Tạo biến và gán giá trị
- * B2: soQuyDoiVND = soTienUSD  * tiGiaUSD;
+ * B1: lấy giá trị từ form
+ * B2: xác định điều kiện vào lập công thức
+ *     soQuyDoiVND = soTienUSD  * tiGiaUSD;
  * 
  * Khối 3: output
  * soQuyDoiVND
