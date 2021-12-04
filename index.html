@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập JS_2</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <!-- Bài 1 -->
+    <h1>Bài 1: Tính tiền lương nhân viên</h1>
+    <form class="box" action="index.html">
+        <h2>Bảng tính</h2>
+        <input class="form-input" id="luongMoiNgay" type="text" name="" placeholder="Nhập tiền lương mỗi ngày">
+        <input class="form-input" id="ngayLam" type="text" name="" placeholder="Nhập số ngày làm">
+        <input onclick="tinhLuong()" type="button" value="Tính lương">
+        <p id="txtTong"></p>
+    </form>
+
+    <!-- Bài 2 -->
+    <h1>Bài 2: Tính giá trị trung bình</h1>
+    <form class="box" action="index.html">
+        <h2>Bảng tính</h2>
+        <div class="form__field">
+            <input type="number" id="number1" class="form__input" placeholder=" ">
+            <label for="name" class="form__label">Số 1</label>
+        </div>
+        <div class="form__field">
+            <input type="number" id="number2" class="form__input" placeholder=" ">
+            <label for="name" class="form__label">Số 2</label>
+        </div>
+        <div class="form__field">
+            <input type="number" id="number3" class="form__input" placeholder=" ">
+            <label for="name" class="form__label">Số 3</label>
+        </div>
+        <div class="form__field">
+            <input type="number" id="number4" class="form__input" placeholder=" ">
+            <label for="name" class="form__label">Số 4</label>
+        </div>
+        <div class="form__field">
+            <input type="number" id="number5" class="form__input" placeholder=" ">
+            <label for="name" class="form__label">Số 5</label>
+        </div>
+        <input onclick="tinhTB()" type="button" value="Tính trung bình">
+        <p id="txtTb"></p>
+    </form>
+
+    <!-- Bài 3 -->
+    <h1>Bài 3: Quy đổi tiền tệ</h1>
+    <form class="box" action="index.html">
+        <h2>Bảng tính</h2>
+        <input class="form-input" id="soTienUSD" type="text" name="" placeholder="Nhập số tiền cần quy đổi">
+        <input onclick="quyDoi()" type="button" value="Quy đổi">
+        <p id="txtTienQuyDoi"></p>
+    </form>
+
+    <!-- Bài 4 -->
+    <h1>Bài 4: Tính diện tích, chu vi hình chữ nhật</h1>
+    <form class="box" action="index.html">
+        <h2>Bảng tính</h2>
+        <input class="form-input" id="chieuDai" type="number" name="" placeholder="Nhập chiều dài">
+        <input class="form-input" id="chieuRong" type="number" name="" placeholder="Nhập chiều rộng">
+        <input onclick="tinhCS()" type="button" value="Tính">
+        <p id="txtChuVi"></p>
+        <p id="txtDienTich"></p>
+    </form>
+
+    <!-- Bài 5 -->
+    <h1>Bài 5: Tính tổng 2 ký số</h1>
+    <form class="box" action="index.html">
+        <h2>Bảng tính</h2>
+        <input class="form-input" id="soBatKy" type="text" name="" placeholder="Nhập vào 1 số có 2 chữ số">
+        <input onclick="tong2KySo()" type="button" value="Tính">
+        <p id="txtTong2KySo"></p>
+    </form>
+    <!-- Main JS -->
+    <script src="./JS/BaiTap1.js"></script>
+    <script src="./JS/BaiTap2.js"></script>
+    <script src="./JS/BaiTap3.js"></script>
+    <script src="./JS/BaiTap4.js"></script>
+    <script src="./JS/BaiTap5.js"></script>
+</body>
+</html>
